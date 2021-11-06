@@ -1,7 +1,7 @@
 This project was developed by: 
-Stiven rodriguez,
+Stiven Rodriguez,
 Camilo Diaz, 
-John garcia, 
+John Garcia, 
 Mario Arias, 
 Daniel Serna, 
 
