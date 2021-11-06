@@ -1,0 +1,77 @@
+
+
+.card {
+
+
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+    padding-bottom: 1rem;
+    background-image: linear-gradient(
+      var(--card-gradient),
+      white max(9.5rem, 27vh)
+    );
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  
+    img {
+      border-radius: 0.5rem 0.5rem 0 0;
+      
+      object-fit: cover;
+      
+      
+      aspect-ratio: 4/4;
+      
+  
+      ~ * {
+        margin-left: 1rem;
+        margin-right: 1rem;
+      }
+    }
+  
+    > :last-child {
+      margin-bottom: 0;
+    }
+  
+  }
+  
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: grid;
+    place-content: center;
+    justify-items: center;
+    min-height: 100vh;
+    
+    padding: 1rem;
+    line-height: 1.5;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
+      helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+    color: #444;
+    background-color: #ffffff;
+  }
+  
+  .card h3 {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    display: block;
+    place-content: center;
+  }
+  
+
+  
+  .card-wrapper {
+    list-style: none;
+    
+    
+    
+    grid-gap: 1.5rem;
+    
+  }
+  
+
+  

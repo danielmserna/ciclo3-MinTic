@@ -1,0 +1,34 @@
+python manage.py runserver
+heroku login -i
+heroku config:set DISABLE_COLLECTSTATIC=1
+git push heroku master
+heroku config:unset DISABLE_COLLECTSTATIC
+./manage.py makemigrations inventarioapp
+python manage.py migrate
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+git init 	
+git add .  -   git status  -   git checkout   -   git commit -m "name commit"  -    git push
+
+heroku login	heroku git:remote -a banck-fe-camilo-p12
+
+terminal
+env\Scripts\activate
+     
+pip install simplejwt		pip install psycopg2		pip install djangorestframework	pip install Django==3.2.7	
+pip install PyJWT==2.1.0	pip install djangorestframework-simplejwt	pip install virtualenv		pip freeze		
+pip install --upgrade pip	pip install django-simple-history
+
+python manage.py makemigrations nameapp	python manage.py runserver		python manage.py migrate	python -m pip install gunicorn
+python -m venv env
+
+django-admin startapp nameapp	django-admin startproject name               
+
+npm cache clean --force	npm run serve	npm install jwt-decode	npm install express serve-static --save	
+
+

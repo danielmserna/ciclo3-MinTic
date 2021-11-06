@@ -1,0 +1,13 @@
+*) Url para imagen producto y proveedor --> Camilo
+
+
+
+1) Definir header y footer - Stiven
+2) Hacer la pagina de inicio (Visor) - Mario, Camilo
+	2.1) Mostrar todos los productos
+	2.2) Vista de producto
+3) Hacer login -  Adaptar - Jhon 
+4) Diseñar panel de administrador - Todos 
+5) desplegar en heroku - Daniel.
+
+Push Constantemente
